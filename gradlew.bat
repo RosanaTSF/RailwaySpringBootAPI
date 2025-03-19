@@ -1,13 +1,5 @@
-@rem ========================================================================
-@rem Script de inicialização do Gradle para Windows
-@rem 
-@rem Este script é usado para configurar e iniciar o Gradle Wrapper no sistema
-@rem Windows. Ele verifica se o Java está configurado corretamente e executa o
-@rem Gradle Wrapper com as opções definidas.
-@rem ========================================================================
-
-@rem Verifica se JAVA_HOME está configurado corretamente
-@rem Caso não esteja, tenta localizar o Java no PATH do sistema.
+@rem ==================================================================
+@rem Verifica se JAVA_HOME está configurado corretamente, caso não esteja, tenta localizar o Java no PATH do sistema.
 if not defined JAVA_HOME (
     echo JAVA_HOME não está definido. Tentando localizar o Java no PATH do sistema...
     
